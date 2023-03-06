@@ -3,7 +3,7 @@ from Portrait.pages.cart_page import CartPage
 import time
 
 
-# Проверка наличия элемента "add item'"
+# Проверка наличия элемента "add item"
 def test_is_element_present_add_manual_item(driver):
     page = CartPage(driver)
     page.present_element_input_manual()
